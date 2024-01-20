@@ -14,22 +14,22 @@ git clone https://github.com/Jishilj10/Noise_Removal_Using_Spectral_Subtraction.
 3. Run the MATLAB script main.m.
 
 ## Signal Processing Steps
-1. **Original Signal Spectrum**
+1. **Original Signal Spectrum** \
 The script starts by displaying the spectrum of the original audio signal.
 
-2. **Noise Removal (Spectral Subtraction)**
+2. **Noise Removal (Spectral Subtraction)** \
 The script applies the spectral subtraction method to remove noise from the original signal. The noise signal is split into frames, and noise estimation is performed. The noisy signal frames are processed, and the signal is reconstructed.
 
-3. **Frequency Shaping**
+3. **Frequency Shaping** \
 A frequency shaping window is created and applied to the signal to emphasize or attenuate specific frequency ranges.
 
-4. **Amplitude Shaping**
+4. **Amplitude Shaping** \
 Amplitude shaping is performed to adjust the overall amplitude of the signal while avoiding clipping or distortion.
 
-5. **Final Signal Spectrum**
+5. **Final Signal Spectrum** \
 The spectrum of the final processed signal is displayed.
 
-6. **Audio File Creation**
+6. **Audio File Creation**\
 The original audio signal and the final processed signal are saved as audio files: original audio.wav and Final processed signal.wav, respectively.
 
 ## File Description
