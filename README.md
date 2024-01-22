@@ -33,7 +33,7 @@ The spectrum of the final processed signal is displayed.
 The original audio signal and the final processed signal are saved as audio files: original audio.wav and Final processed signal.wav, respectively.
 
 ## File Description
--  **audio_processing.m**: MATLAB script for audio signal processing.
+-  **main.m**: MATLAB script for audio signal processing.
 - **Csound.wav**: Original audio signal file.
 - **Cnoise1.wav**: Noise signal file.
 
